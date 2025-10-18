@@ -6,38 +6,61 @@
     <title>Beauty Glow</title>
     <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div class="brand">
-            <div class="logo">
-                <h1>Lumie</h1>
-                <p>Shine with Style</p>
-             </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About" class="active">about</a></li>
-                <li><a href="#Products">Products</a></li>
-                <li><a href="#Blog">Blog</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 m-0 fixed-top">
+            <div class="container">
+                <div class="brand">
+                    <div class="logo">
+                        <h1>Lumie</h1>
+                        <p>Shine with Style</p>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="products.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#blog">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav-item mt-2">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <i class="fas fa-shopping-cart"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
-        <div class="icons">
-  <i class="fas fa-search"></i>
-  <i class="fas fa-shopping-cart"></i>
-</div>
-
     </header>
      <!--Hero section -->
     <section class="hero">
         <div class="hero-text">
-        <h2>Discover Your Natural Glow</h2>
-        <p>Explore Our exclusive Lumie beauty collection and let your skin shine</p>
-        <a href="Products.html" class="btn">Shop Now</a>
+        <h2 style="font-size: 4rem;">About Us</h2>
         </div>
     </section>
     
@@ -50,6 +73,13 @@
     </section>
     <footer>
         <p>&copy; 2025 Lumie. All rights reserved.</p>
-     </footer>   
+     </footer>  
+     
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 </body>
 </html>

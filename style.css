@@ -91,13 +91,14 @@
 
  .hero {
      background: url(./images/lavender.jpg) center/cover no-repeat;
-     height: 85vh;
+     height: 100vh;
      display: flex;
      align-items: center;
      justify-content: center;
      text-align: center;
      background-blend-mode: multiply;
      color: #fff;
+     padding-top: 80PXBB;
  }
 
  .hero-text h2 {
@@ -175,7 +176,7 @@
  .product-grid {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     gap: 35px;
+     gap: 15px;
      justify-content: center;
      /* margin-right: 5px; */
 
@@ -189,7 +190,9 @@
      transition: 0.3s ease;
      max-width: 330px;
      overflow: hidden;
-     margin-right: 18px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 30px;
 
 
  }
@@ -335,6 +338,7 @@
      font-size: 15px;
      background-color: #fff;
      transition: 0.3s;
+     resize: none;
  }
 
  .contact-form input:focus,
@@ -344,7 +348,7 @@
  }
 
  .btn-send {
-     border-color: #ff7aa2;
+     
      color: #fff;
      padding: 10PX;
      border: none;
@@ -353,11 +357,16 @@
      font-size: 16px;
      font-weight: 500;
      transition: 0.3s;
+    background-color: #ff558a;
+
 
  }
 
  .btn-send:hover {
-     background-color: #ff558a;
+     color: #ff558a;
+     border: 1px #ff7aa2 solid;
+     background: transparent;
+
 
  }
 
@@ -568,3 +577,32 @@
 }
 
    
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar i.active,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ff7aa2;
+
+}
+
+#navbarSupportedContent > ul > li:nth-child(1) > a:hover{
+        color: #ff7aa2;
+
+}
+#navbarSupportedContent > ul > li:nth-child(2) > a:hover{
+        color: #ff7aa2;
+
+}
+#navbarSupportedContent > ul > li:nth-child(3) > a:hover{
+        color: #ff7aa2;
+
+}
+#navbarSupportedContent > ul > li:nth-child(4) > a:hover{
+        color: #ff7aa2;
+
+}
+#navbarSupportedContent > ul > li:nth-child(5) > a:hover{
+        color: #ff7aa2;
+
+}
