@@ -570,6 +570,8 @@
     border-radius: 25px;
     text-decoration: none;
     transition: 0.3s;
+    outline: none;
+    border: none;
 }
 
 #shop:hover {
